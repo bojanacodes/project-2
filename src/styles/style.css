@@ -20,14 +20,6 @@
   
 }
 
-.nav-bar-links:link {
-  text-decoration: none;
-  color: white;
-}
-
-.nav-bar-links:hover {
-  color: #a5694f;
-}
 
 h1 {
   padding: 20px 0 0 0;
@@ -40,7 +32,15 @@ h1 {
   color: white;
   padding: 20px 0 10px 0;
   width: 80%;
+}
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar-link:hover {
+  color: #a5694f;
 }
 
 li {
@@ -303,7 +303,7 @@ img {
   color: white;
   padding: 20px 0 10px 0;
   width: 80%;
-  text-decoration: underline;
+  text-decoration: none;
 
 }
 

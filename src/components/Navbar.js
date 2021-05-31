@@ -11,16 +11,16 @@ export default function Navbar() {
     </header>
     <ul className="nav-bar-links">
       <li>
-        <Link to={'/project-2/'}>Home</Link>
+        <Link to={'/project-2/'} className="nav-bar-link">Home</Link>
       </li>
       <li>
-        <Link to={'/project-2/textiles'}>Textiles</Link>
+        <Link to={'/project-2/textiles'} className="nav-bar-link">Textiles</Link>
       </li>
       <li>
-        <Link to={url === '/project-2/decorativearts' ? '/project-2/decorativeart2' : '/project-2/decorativearts'  }>Decorative Arts</Link>
+        <Link to={url === '/project-2/decorativearts' ? '/project-2/decorativeart2' : '/project-2/decorativearts'  } className="nav-bar-link" >Decorative Arts</Link>
       </li>
       <li>
-        <Link to={url === '/project-2/books' ? '/project-2/book2' : '/project-2/books'  }>Books</Link>
+        <Link to={url === '/project-2/books' ? '/project-2/book2' : '/project-2/books'  } className="nav-bar-link">Books</Link>
       </li>
     </ul>
 
